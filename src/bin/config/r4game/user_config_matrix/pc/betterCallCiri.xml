@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+
+	<Group id="BCC" displayName="Mods.bcc_ModName">
+		<VisibleVars>
+			<Var id="lootSwitch" displayName="bcc_blockLooting" displayType="TOGGLE"/>
+			<Var id="enableRageMode" displayName="bcc_enableRageMode" displayType="TOGGLE"/>
+			<Var id="suppressRageEffect" displayName="bcc_suppressRageEffect" displayType="TOGGLE"/>
+			<Var id="appearance" displayName="bcc_appearance" displayType="OPTIONS">
+					<OptionsArray>
+						<Option id="0" displayName="bcc_appearance_default">
+							<Entry varId="appearance" value="0"/>
+						</Option>
+						<Option id="1" displayName="bcc_appearance_default_winter">
+							<Entry varId="appearance" value="1"/>
+						</Option>
+						<Option id="2" displayName="bcc_appearance_bandaged">
+							<Entry varId="appearance" value="2"/>
+						</Option>
+					</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+
+</UserConfig>
