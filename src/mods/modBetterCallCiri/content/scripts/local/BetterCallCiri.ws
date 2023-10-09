@@ -16,6 +16,7 @@ class CBetterCallCiri {
 
 		blacklistedItemNames.PushBack('Zireael Sword');
 		blacklistedItemNames.PushBack('Ciri Zireael Sword Scabbard');
+		blacklistedItemNames.PushBack('q403_ciri_meteor');
 	}
 
 	private function SetupInputs()
