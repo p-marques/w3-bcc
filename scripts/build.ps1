@@ -35,15 +35,6 @@ if ($version -notmatch '^[0-9]+\.[0-9]+(?:\.[0-9]+)?$') {
 
 # An explicit allowlist keeps development files and accidental copies out of releases.
 $scriptPaths = @(
-    'game/gameplay/containers/container.ws'
-    'game/gui/menus/commonMenu.ws'
-    'game/gui/menus/glossaryMainMenu.ws'
-    'game/gui/menus/inventoryMenu.ws'
-    'game/gui/popups/LootPopup.ws'
-    'game/gui/r4guiSceneController.ws'
-    'game/interactionsManager.ws'
-    'game/r4Game.ws'
-    'game/replacers/ciri.ws'
     'local/BetterCallCiri.ws'
 )
 $languages = @(
