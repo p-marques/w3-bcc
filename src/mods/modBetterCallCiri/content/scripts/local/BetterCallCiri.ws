@@ -1,4 +1,4 @@
-// Better Call Ciri 2.x - 2022, pMarK
+// Better Call Ciri 3.0 - 2026, pMarK
 
 class CBetterCallCiri {
 
